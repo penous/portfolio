@@ -37,11 +37,11 @@
 <style
    type="text/css"
    id="style108">
-	.st0{fill:none;stroke:#c7cbca;stroke-width:0.5;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#c7cbca;stroke-width:0.5;stroke-miterlimit:10;}
-	.st2{fill:#c7cbca;}
-	.st3{fill:none;stroke:#c7cbca;stroke-width:0.25;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#c7cbca;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#393939;stroke-width:0.5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#393939;stroke-width:0.5;stroke-miterlimit:10;}
+	.st2{fill:#393939;}
+	.st3{fill:none;stroke:#393939;stroke-width:0.25;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#393939;stroke-miterlimit:10;}
 </style>
 <line
    class="st0"

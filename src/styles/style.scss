@@ -16,7 +16,7 @@ $nav-height: 56px;
 
 // Custom CSS
 body {
-  background-image: url(../images/background.gif);
+  background-image: url(../images/background.webp);
   background-size: cover;
 }
 
@@ -24,13 +24,20 @@ body {
   height: calc(100vh - #{$nav-height});
   max-height: 100vh;
   width: 100vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg_svg.svg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg_svg.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+section {
+  h1 {
+    margin-left: 150px;
+  }
+}
+
 nav {
   height: $nav-height;
+  margin: 40px 40px 0;
   .move {
     transform: translateY(6px);
   }
@@ -39,12 +46,10 @@ nav {
     height: 28px;
   }
 }
-
-a {
-  i {
-    color: white;
-  }
+.navbar {
+  background-image: none !important;
 }
+
 .social-icons {
   ul {
     display: flex;

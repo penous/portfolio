@@ -6,13 +6,11 @@ import {
   faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons';
 
-// library.add(fab);
-
 const Main = () => {
   return (
     <Fragment>
       <section className='main-bg text-light d-flex align-items-center'>
-        <h1 className='ms-4'>
+        <h1>
           Hi, I'm <span className='text-primary'>Tom</span> Dirinck
         </h1>
       </section>
