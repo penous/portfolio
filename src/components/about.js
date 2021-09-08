@@ -11,7 +11,7 @@ const About = () => {
         <div className='row'>
           <div className='col-md-4 me-auto'>-</div>
           <div className='col-md-4 align-self-center'>&lt;?&gt;</div>
-          <div className='col-md-4'>
+          <div className='col-md-4 d-none d-md-block'>
             <p>
               &lt;div class=&quot;
               <span className='text-primary'>white-box</span>
@@ -40,7 +40,7 @@ const About = () => {
           </div>
         </div>
         <div className='row flex-nowrap justify-content-between mt-5'>
-          <div className='col-md-5'>
+          <div className='col-md-5 col-12'>
             <h2>
               <span className='text-primary'>H</span>ey there, I'm Tom Dirinck
             </h2>
@@ -63,7 +63,7 @@ const About = () => {
               - <span className='text-primary'>Tom Dirinck</span>
             </p>
           </div>
-          <div className='col-md-5'>
+          <div className='col-md-5 col-12'>
             <div className='profile-pic'>
               <StaticImage
                 alt='profile picture'
