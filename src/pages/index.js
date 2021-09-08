@@ -1,8 +1,14 @@
-import * as React from 'react';
+import React, { Fragment } from 'react';
+import About from '../components/about';
 import Main from '../components/main';
 
 const IndexPage = () => {
-  return <Main />;
+  return (
+    <Fragment>
+      <Main />
+      <About />
+    </Fragment>
+  );
 };
 
 export default IndexPage;
