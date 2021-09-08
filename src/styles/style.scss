@@ -1,0 +1,87 @@
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+
+// Customize some defaults
+$primary: #f5ff4f;
+$light: #ced4da;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//
+// Custom styles
+//
+
+// Custom variables
+$nav-height: 56px;
+
+// Custom CSS
+body {
+  background-image: url(../images/background.gif);
+  background-size: cover;
+}
+
+.main-bg {
+  height: calc(100vh - #{$nav-height});
+  max-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg_svg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  height: $nav-height;
+  .move {
+    transform: translateY(6px);
+  }
+  .nav-logo {
+    width: 40px;
+    height: 28px;
+  }
+}
+
+a {
+  i {
+    color: white;
+  }
+}
+.social-icons {
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    li {
+      padding: 0.85rem 0;
+      display: list-item;
+    }
+    &::after {
+      content: "";
+      display: block;
+      width: 1px;
+      height: 90px;
+      margin: 0 auto;
+      background-color: darkgrey;
+    }
+  }
+}
+
+.footer-logo {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .social-icons {
+    display: none;
+  }
+}
