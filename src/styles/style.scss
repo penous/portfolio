@@ -116,9 +116,9 @@ nav {
     &::after {
       content: url(../images/title_dots.svg);
       position: absolute;
-      left: 75%;
+      left: 77%;
       top: 0;
-      transform: translateY(-25%);
+      transform: translateY(-25%) scale(120%);
     }
   }
   p {
@@ -130,6 +130,15 @@ nav {
   }
   .profile-pic {
     position: relative;
+    &::before {
+      content: '<Dev className="Next Level" />';
+      position: absolute;
+      transform: rotate(-90deg) translate(50%, -700%);
+      left: 0;
+      bottom: 0;
+      width: 250px;
+      font-size: 0.9em;
+    }
     &::after {
       content: url(../images/pp_bg.svg);
       position: absolute;
