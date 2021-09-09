@@ -59,11 +59,11 @@ const About = () => {
               aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
               eos qui ratione voluptatem sequi nesciunt”
             </p>
-            <p>
+            <p className='mb-4'>
               - <span className='text-primary'>Tom Dirinck</span>
             </p>
           </div>
-          <div className='col-md-5 col-12'>
+          <div className='col-md-5 col-12 mt-sm-4'>
             <div className='profile-pic'>
               <StaticImage
                 alt='profile picture'
