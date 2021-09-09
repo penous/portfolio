@@ -39,7 +39,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className='row flex-nowrap justify-content-between mt-5'>
+        <div className='row justify-content-between mt-5'>
           <div className='col-md-5 col-12'>
             <h2>
               <span className='text-primary'>H</span>ey there, I'm Tom Dirinck
