@@ -187,6 +187,7 @@ nav {
   margin: 0 25px 25px 0;
 }
 
+// Small to medium
 @media (max-width: 767.98px) {
   .social-icons {
     display: none;
@@ -201,6 +202,7 @@ nav {
   }
 }
 
+// Extra small to small
 @media (max-width: 576px) {
   nav {
     font-size: 0.6em;
