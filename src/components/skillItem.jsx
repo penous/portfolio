@@ -18,13 +18,11 @@ const SkillItem = ({ name, level }) => {
 
   return (
     <div className='row'>
-      <div className='col-6'>
-        <h6>{name}</h6>
+      <div className='col-12'>
+        <h5 className='d-inline-block me-4 mb-2'>{name}</h5>{' '}
+        <p className='text-primary d-inline-block mb-2'>{level}</p>
       </div>
-      <div className='col-6 text-primary'>
-        <p>{level}</p>
-      </div>
-      <div className='col-6'>
+      <div className='col-12 mb-3'>
         {data.allImageSharp.nodes.map((node) => {
           if (node.fixed.originalName.includes(level.toLowerCase())) {
             const image = node.gatsbyImageData;
