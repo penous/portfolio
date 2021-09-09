@@ -184,6 +184,43 @@ nav {
 .skills {
   height: 100vh;
   color: whitesmoke;
+  font-family: $font-book;
+  .row {
+    &:nth-child(2) {
+      position: relative;
+      &::after {
+        content: url(../images/skills_big_bg.svg);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        transform: scale(8);
+        z-index: -1;
+      }
+    }
+  }
+  h2 {
+    position: relative;
+    font-family: $font-title;
+    &::before {
+      content: url(../images/skills_bg.svg);
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(-15%, -35%) scale(1.1);
+      z-index: -1;
+    }
+    &::after {
+      content: "<ul>skills</ul>";
+      position: absolute;
+      left: 0;
+      top: 100%;
+      font-family: $font-book;
+      font-size: 0.4em;
+    }
+  }
+  .row-spacing {
+    margin-bottom: 4.5rem;
+  }
 }
 
 .footer-logo {
