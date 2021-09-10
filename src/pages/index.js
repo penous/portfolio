@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import About from '../components/about';
 import Main from '../components/main';
+import Projects from '../components/projects';
 import Skills from '../components/skills';
 
 const IndexPage = () => {
@@ -9,6 +10,7 @@ const IndexPage = () => {
       <Main />
       <About />
       <Skills />
+      <Projects />
     </Fragment>
   );
 };
