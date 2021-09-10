@@ -59,6 +59,14 @@ body {
   scroll-behavior: smooth;
 }
 
+section {
+  height: 100vh;
+  h1 {
+    font-family: $font-title;
+    margin-left: 150px;
+  }
+}
+
 .main-bg {
   height: calc(100vh - #{$nav-height});
   max-height: 100vh;
@@ -68,21 +76,14 @@ body {
   background-size: cover;
 }
 
-section {
-  h1 {
-    font-family: $font-title;
-    margin-left: 150px;
-  }
-}
-
 nav {
   font-family: $font-title;
-  font-size: 1.5em;
+  font-size: 1.2em;
   height: $nav-height;
   margin: 40px 40px 0;
   div {
     a {
-      font-size: 1.5em !important;
+      font-size: 1.2em !important;
     }
   }
   .move {
@@ -132,7 +133,6 @@ nav {
 }
 
 .about {
-  height: 100vh;
   color: whitesmoke;
   h2 {
     font-family: $font-title;
@@ -171,29 +171,36 @@ nav {
       font-size: 0.9em;
     }
     &::after {
-      content: url(../images/pp_bg.svg);
+      content: "";
+      background-image: url(../images/pp_bg.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
       position: absolute;
-      left: 45%;
-      top: 65%;
-      transform: scale(3.5);
+      left: 15%;
+      top: 15%;
+      width: 100%;
+      height: 100%;
       z-index: -1;
     }
   }
 }
 
 .skills {
-  height: 100vh;
   color: whitesmoke;
   font-family: $font-book;
   .row {
     &:nth-child(2) {
       position: relative;
       &::after {
-        content: url(../images/skills_big_bg.svg);
+        content: "";
+        background-image: url(../images/skills_big_bg.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
         position: absolute;
+        width: 110%;
+        height: 110%;
         top: 0px;
         left: 0px;
-        transform: translate(400%, 500%) scale(11);
         z-index: -1;
       }
     }
@@ -232,16 +239,64 @@ nav {
   margin: 0 25px 25px 0;
 }
 
+// Larger then Large
+@media (min-width: 1201px) {
+  .skills {
+    p {
+      float: right;
+      transform: translateX(-22px);
+    }
+  }
+}
+
+// Even larger
+@media (min-width: 1400px) {
+  .skills {
+    p {
+      transform: translateX(-65px);
+    }
+  }
+}
+// Medium to large
+@media (max-width: 1200px) {
+  section {
+    height: auto;
+    margin-bottom: 150px;
+  }
+  nav {
+    font-size: 0.9em;
+    div {
+      a {
+        font-size: 0.9em;
+      }
+    }
+  }
+  .skills {
+    p {
+      width: 100%;
+    }
+  }
+}
+
 // Small to medium
 @media (max-width: 767.98px) {
   .social-icons {
     display: none;
   }
   nav {
-    font-size: 1em;
+    font-size: 0.8em;
     div {
       a {
-        font-size: 1em !important;
+        font-size: 0.8em !important;
+      }
+    }
+  }
+  .skills {
+    .row {
+      &:nth-child(2) {
+        &::after {
+          background-image: none;
+        }
       }
     }
   }

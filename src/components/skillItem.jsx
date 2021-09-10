@@ -18,9 +18,9 @@ const SkillItem = ({ name, level }) => {
 
   return (
     <div className='row'>
-      <div className='col-12'>
-        <h5 className='d-inline-block me-4 mb-2'>{name}</h5>{' '}
-        <p className='text-primary d-inline-block mb-2'>{level}</p>
+      <div className='col-12 '>
+        <h5 className='d-inline-block me-4 mb-0 mb-xl-2'>{name}</h5>{' '}
+        <p className='text-primary d-inline-block mb-1 mb-xl-2 '>{level}</p>
       </div>
       <div className='col-12 mb-3'>
         {data.allImageSharp.nodes.map((node) => {

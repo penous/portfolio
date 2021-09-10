@@ -3,8 +3,6 @@ import { skills } from '../context/skills';
 import SkillItem from './skillItem';
 
 const Skills = () => {
-  console.log(skills[0]);
-
   return (
     <section
       id='skills'
@@ -19,7 +17,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className='row'>
+        <div className='row skill-list'>
           {skills.map((skill, i) => {
             return (
               <div className='col-6 col-md-3'>

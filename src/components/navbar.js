@@ -48,31 +48,34 @@ const Navbar = () => {
         >
           <span className='navbar-toggler-icon'></span>
         </button>
-        <div className='collapse navbar-collapse' id='navbarSupportedContent'>
+        <div
+          className='collapse navbar-collapse text-end '
+          id='navbarSupportedContent'
+        >
           <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
-            <li className='nav-item px-4'>
+            <li className='nav-item px-md-2 px-xl-3'>
               <a className='nav-link ' aria-current='page' href='#about'>
                 About
               </a>
             </li>
-            <li className='nav-item px-4'>
+            <li className='nav-item px-md-2 px-xl-3'>
               <a className='nav-link' href='#skills'>
                 Skills
               </a>
             </li>
-            <li className='nav-item px-4'>
-              <a className='nav-link ' aria-current='page' href='#'>
+            <li className='nav-item px-md-2 px-xl-3'>
+              <a className='nav-link ' aria-current='page' href='#projects'>
                 Projects
               </a>
             </li>
-            <li className='nav-item px-4'>
-              <a className='nav-link' href='#'>
+            <li className='nav-item px-md-2 px-xl-3'>
+              <a className='nav-link' href='#contact'>
                 Contact
               </a>
             </li>
           </ul>
           <form className='d-flex'>
-            <button className='btn btn-outline-primary' type='submit'>
+            <button className='btn btn-outline-primary ' type='submit'>
               Resume
             </button>
           </form>
