@@ -14,20 +14,34 @@ const Projects = () => {
             <div className='row '>
               <div className='col-6'>
                 <div className='col-12 mb-3'>
-                  <div className=' bg-secondary'>1</div>
+                  <div className=' bg-secondary'>
+                    <StaticImage
+                      alt='One of my projects'
+                      src='../images/projects/Parcel_app_header.jpg'
+                      width={298}
+                      height={298}
+                    />
+                  </div>
                 </div>
                 <div className='col-12'>
-                  <div className='bg-success'>2</div>
+                  <div className='bg-success'>
+                    <StaticImage
+                      alt='One of my projects'
+                      src='../images/projects/Parcel_app_header.jpg'
+                      width={298}
+                      height={298}
+                    />
+                  </div>
                 </div>
               </div>
               <div className='col-6'>
                 <div className='col-12 h-100 '>
-                  <div className='bg-primary h-100'>
+                  <div className='bg-primary hover-primary h-100'>
                     <StaticImage
                       alt='One of my projects'
                       src='../images/projects/Parcel_app_header.jpg'
-                      width='298'
-                      height='600'
+                      width={298}
+                      height={600}
                     />
                   </div>
                 </div>

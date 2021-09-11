@@ -238,6 +238,34 @@ nav {
   .h-100 {
     height: 100%;
   }
+  .hover-primary {
+    position: relative;
+    transition: transform 0.1s;
+    img {
+      filter: grayscale(1) invert(1);
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(darken($primary, 20%), 0.7);
+      transition: opacity 0.2s linear;
+      z-index: 2;
+    }
+    &:hover {
+      transform: scale(1.03);
+      img {
+        filter: none;
+      }
+      &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+      }
+    }
+  }
 }
 
 .footer-logo {
