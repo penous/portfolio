@@ -74,11 +74,11 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <form className='d-flex'>
+          {/* <form className='d-flex'>
             <button className='btn btn-outline-primary ' type='submit'>
               Resume
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </nav>
