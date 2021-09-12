@@ -9,7 +9,7 @@ const Contact = () => {
     >
       <div className='container'>
         <div className='row'>
-          <div className='col'>
+          <div className='col-12 col-md-8'>
             <div className='contact-wrapper'>
               <div className='row'>
                 <div className='col mb-2'>
@@ -21,7 +21,7 @@ const Contact = () => {
 
               {/* Form or details */}
               <div className='row details'>
-                <div className='col-12 d-flex justify-content-between mb-3 contact-bg text-center'>
+                <div className='col-12 d-flex justify-content-between py-1 mb-3 contact-bg text-center'>
                   <div className='tag-start'>
                     &lt;<span className='text-primary '>Github</span>&gt;
                   </div>
@@ -32,7 +32,8 @@ const Contact = () => {
                     &lt;/<span className='text-primary '>Github</span>&gt;
                   </div>
                 </div>
-                <div className='col-12 d-flex justify-content-between mb-3 contact-bg text-center'>
+
+                <div className='col-12 d-flex justify-content-between py-1 mb-3 contact-bg text-center'>
                   <div className='tag-start'>
                     &lt;<span className='text-primary'>LinkedIn</span>&gt;
                   </div>
@@ -42,12 +43,12 @@ const Contact = () => {
                   >
                     linkedin.com/tom-dirinck
                   </a>
-
                   <div className='tag-end'>
                     &lt;/<span className='text-primary'>LinkedIn</span>&gt;
                   </div>
                 </div>
-                <div className='col-12 d-flex justify-content-between mb-3 contact-bg text-center'>
+
+                <div className='col-12 d-flex justify-content-between py-1 mb-3 contact-bg text-center'>
                   <div className='tag-start'>
                     &lt;<span className='text-primary'>Email</span>&gt;
                   </div>
@@ -56,12 +57,20 @@ const Contact = () => {
                     &lt;/<span className='text-primary'>Email</span>&gt;
                   </div>
                 </div>
+
+                <div className='col-12 d-flex  py-1 mb-3 text-center'>
+                  <div className='col-3 tag-start commit contact-bg py-1 ms-auto'>
+                    <span className='text-primary'>&lt;</span>
+                    commit
+                    <span className='text-primary'>&gt;</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
           {/* Right side graphics */}
-          <div className='col d-flex justify-content-end ps-5'>
+          <div className='col-12 col-md-4 d-flex justify-content-end ps-5'>
             <div className='contact-text-right'>
               <p className='mb-0'>
                 --&gt; &nbsp;&nbsp; &lt;country&gt;
