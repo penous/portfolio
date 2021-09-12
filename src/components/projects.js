@@ -15,34 +15,41 @@ const Projects = () => {
               <div className='row '>
                 <div className='col-6'>
                   <div className='col-12 mb-3'>
-                    <div className=' bg-secondary hover-secondary'>
+                    <div className='hover-secondary'>
                       <StaticImage
                         alt='One of my projects'
                         src='../images/projects/Parcel_app_header.jpg'
-                        width={298}
-                        height={298}
+                        width={310}
+                        height={310}
+                        layout='fullWidth'
+                        objectFit='cover'
+                        className='h-100'
                       />
                     </div>
                   </div>
                   <div className='col-12'>
-                    <div className='bg-success hover-secondary'>
+                    <div className='hover-secondary'>
                       <StaticImage
                         alt='One of my projects'
                         src='../images/projects/Parcel_app_header.jpg'
-                        width={298}
-                        height={298}
+                        width={310}
+                        height={310}
+                        layout='fullWidth'
+                        objectFit='cover'
+                        className='h-100'
                       />
                     </div>
                   </div>
                 </div>
                 <div className='col-6'>
                   <div className='col-12 h-100 '>
-                    <div className='bg-primary hover-primary h-100'>
+                    <div className='hover-long h-100'>
                       <StaticImage
                         alt='One of my projects'
-                        src='../images/projects/Parcel_app_header.jpg'
-                        width={298}
-                        height={600}
+                        src='../images/projects/parcel.png'
+                        layout='fullWidth'
+                        objectFit='cover'
+                        className='h-100'
                       />
                     </div>
                   </div>
@@ -54,32 +61,41 @@ const Projects = () => {
             <div className='col-sm-12 col-lg-6'>
               <div className='row'>
                 <div className='col-6 mb-3'>
-                  <div className='col-12 bg-secondary hover-secondary'>
+                  <div className='col-12 hover-secondary'>
                     <StaticImage
                       alt='One of my projects'
                       src='../images/projects/memory_preview.png'
-                      width={298}
-                      height={298}
+                      width={310}
+                      height={310}
+                      layout='fullWidth'
+                      objectFit='cover'
+                      className='h-100'
                     />
                   </div>
                 </div>
                 <div className='col-6 mb-3'>
-                  <div className='col-12 bg-primary hover-secondary'>
+                  <div className='col-12 hover-secondary'>
                     <StaticImage
                       alt='One of my projects'
                       src='../images/projects/memory_preview.png'
-                      width={298}
-                      height={298}
+                      width={310}
+                      height={310}
+                      layout='fullWidth'
+                      objectFit='cover'
+                      className='h-100'
                     />
                   </div>
                 </div>
                 <div className='col-12'>
-                  <div className='col-12 bg-danger hover-primary'>
+                  <div className='col-12 hover-wide'>
                     <StaticImage
                       alt='One of my projects'
-                      src='../images/projects/Becode_class_app_header.jpg'
+                      src='../images/projects/pokedex.png'
                       width={600}
-                      height={298}
+                      height={310}
+                      layout='fullWidth'
+                      objectFit='cover'
+                      className='h-100'
                     />
                   </div>
                 </div>
