@@ -7,6 +7,7 @@ const SkillItem = ({ name, level }) => {
     query {
       allImageSharp {
         nodes {
+          id
           gatsbyImageData
           fixed {
             originalName
@@ -26,7 +27,13 @@ const SkillItem = ({ name, level }) => {
         {data.allImageSharp.nodes.map((node) => {
           if (node.fixed.originalName.includes(level.toLowerCase())) {
             const image = node.gatsbyImageData;
-            return <GatsbyImage image={image} alt={`Skill Level ${level}`} />;
+            return (
+              <GatsbyImage
+                key={node.id}
+                image={image}
+                alt={`Skill Level ${level}`}
+              />
+            );
           }
         })}
       </div>

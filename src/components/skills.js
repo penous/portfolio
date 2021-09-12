@@ -20,8 +20,8 @@ const Skills = () => {
         <div className='row skill-list'>
           {skills.map((skill, i) => {
             return (
-              <div className='col-6 col-md-3'>
-                <SkillItem key={i} name={skill.name} level={skill.level} />
+              <div key={`${i}-${skill.name}`} className='col-6 col-md-3'>
+                <SkillItem name={skill.name} level={skill.level} />
               </div>
             );
           })}

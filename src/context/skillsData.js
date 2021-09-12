@@ -8,10 +8,6 @@ export const skills = [
     level: 'Advanced',
   },
   {
-    name: 'Html',
-    level: 'Advanced',
-  },
-  {
     name: 'Javascript',
     level: 'Advanced',
   },
@@ -62,6 +58,10 @@ export const skills = [
   {
     name: 'Rails',
     level: 'Intermediate',
+  },
+  {
+    name: 'Git',
+    level: 'Advanced',
   },
   {
     name: 'Sql',
