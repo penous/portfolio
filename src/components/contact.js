@@ -9,7 +9,7 @@ const Contact = () => {
     >
       <div className='container'>
         <div className='row'>
-          <div className='col-12 col-md-8'>
+          <div className='col-12 col-md-8 col-lg-6'>
             <div className='contact-wrapper'>
               <div className='row'>
                 <div className='col mb-2'>
@@ -70,7 +70,7 @@ const Contact = () => {
           </div>
 
           {/* Right side graphics */}
-          <div className='col-12 col-md-4 d-flex justify-content-end ps-5'>
+          <div className='col-12 col-md-4 col-lg-6 d-flex justify-content-end ps-5'>
             <div className='contact-text-right'>
               <p className='mb-0'>
                 --&gt; &nbsp;&nbsp; &lt;country&gt;
