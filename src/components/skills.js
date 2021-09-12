@@ -1,5 +1,5 @@
 import React from 'react';
-import { skills } from '../context/skills';
+import { skills } from '../context/skillsData';
 import SkillItem from './skillItem';
 
 const Skills = () => {
