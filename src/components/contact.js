@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const Contact = () => {
   return (
@@ -60,8 +61,18 @@ const Contact = () => {
           </div>
 
           {/* Right side graphics */}
-          <div className='col'>
-            <div className='projects-image-wrapper'>image here</div>
+          <div className='col d-flex justify-content-end ps-5'>
+            <div className='contact-text-right'>
+              <p className='mb-0'>
+                --&gt; &nbsp;&nbsp; &lt;country&gt;
+                <span className='text-primary'>Belgium</span>&lt;/country&gt;
+              </p>
+              <p className='mb-0'>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;state&gt;
+                <span className='text-primary'>Antwerp</span>
+                &lt;/state&gt;
+              </p>
+            </div>
           </div>
         </div>
       </div>

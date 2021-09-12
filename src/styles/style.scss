@@ -331,6 +331,23 @@ nav {
     background-size: cover;
     background-position: center;
   }
+  .contact-text-right {
+    position: relative;
+    p {
+      font-size: 0.9em;
+    }
+    &::after {
+      content: "";
+      background: url(../images/contact_art.svg) no-repeat;
+      background-size: contain;
+      height: 180%;
+      width: 180%;
+      right: 50%;
+      bottom: 30%;
+      position: absolute;
+      z-index: -1;
+    }
+  }
   a {
     text-decoration: none;
     color: whitesmoke;
@@ -387,6 +404,13 @@ nav {
   .skills {
     p {
       width: 100%;
+    }
+  }
+  .contact {
+    .contact-text-right {
+      &::after {
+        background: none;
+      }
     }
   }
 }
