@@ -1,5 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import { Link } from 'gatsby';
 
 const About = () => {
   return (
@@ -42,22 +43,23 @@ const About = () => {
         <div className='row justify-content-between mt-5'>
           <div className='col-md-5 col-12'>
             <h2>
-              <span className='text-primary'>H</span>ey there, I'm Tom Dirinck
+              <span className='text-primary'>H</span>ey there, I'm Tom
             </h2>
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt”
+              <q>
+                I’m a software engineer specializing in building (and
+                occasionally designing) exceptional digital experiences. My
+                passion for coding has begun with the 1995 super movie
+                'Hackers'. It was in that moment that I knew I wanted to be a
+                coder when I got older. I have two years experience as a backend
+                developer and I'm now enrolled at Becode Antwerp where it's
+                possible to focus more on the frontend spectrum. All this to
+                become a full-fledged fullstack developer. We've had the
+                opportunity to work with a great deal of
+                <Link to='#skills'> web technologies</Link>. I'm looking forward
+                to gather a significant amount of various experiences at my
+                internship and future jobs with amazing and ambitious people.
+              </q>
             </p>
             <p className='mb-4'>
               - <span className='text-primary'>Tom Dirinck</span>
