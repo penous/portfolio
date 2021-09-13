@@ -10,9 +10,14 @@ const Main = () => {
   return (
     <Fragment>
       <section className='main-bg text-light d-flex align-items-center'>
-        <h1>
-          Hi, I'm <span className='text-primary'>Tom</span> Dirinck
-        </h1>
+        <div className='container'>
+          <h1>
+            Welcome, I'm <span className='text-primary'>Tom</span> Dirinck
+          </h1>
+          <h2>
+            <span className='text-primary'>Fullstack</span> developer
+          </h2>
+        </div>
       </section>
 
       <div className='social-icons'>

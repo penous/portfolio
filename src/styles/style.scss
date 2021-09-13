@@ -61,7 +61,8 @@ body {
 
 section {
   height: 100vh;
-  h1 {
+  h1,
+  h2 {
     font-family: $font-title;
     margin-left: 150px;
   }
@@ -276,6 +277,33 @@ nav {
       top: 0;
       left: 0;
       background-image: url(../images/projects/pokedex-preview.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      transition: opacity 0.2s linear;
+      z-index: 2;
+    }
+    &:hover {
+      transform: scale(1.03);
+      &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+      }
+    }
+  }
+  .hover-small {
+    position: relative;
+    transition: transform 0.1s;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-image: url(../images/projects/ruien-preview1.png);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
