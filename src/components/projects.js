@@ -28,10 +28,10 @@ const Projects = () => {
                     </div>
                   </div>
                   <div className='col-12'>
-                    <div className='hover-secondary'>
+                    <div className='hover-small-website'>
                       <StaticImage
                         alt='One of my projects'
-                        src='../images/projects/filler1.png'
+                        src='../images/projects/portfolio.png'
                         width={298}
                         height={298}
                         layout='fullWidth'
