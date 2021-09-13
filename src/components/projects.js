@@ -18,9 +18,9 @@ const Projects = () => {
                     <div className='hover-secondary'>
                       <StaticImage
                         alt='One of my projects'
-                        src='../images/projects/Parcel_app_header.jpg'
-                        width={310}
-                        height={310}
+                        src='../images/projects/becode-app.png'
+                        width={298}
+                        height={298}
                         layout='fullWidth'
                         objectFit='cover'
                         className='h-100'
@@ -31,9 +31,9 @@ const Projects = () => {
                     <div className='hover-secondary'>
                       <StaticImage
                         alt='One of my projects'
-                        src='../images/projects/Parcel_app_header.jpg'
-                        width={310}
-                        height={310}
+                        src='../images/projects/filler1.png'
+                        width={298}
+                        height={298}
                         layout='fullWidth'
                         objectFit='cover'
                         className='h-100'
@@ -65,8 +65,8 @@ const Projects = () => {
                     <StaticImage
                       alt='One of my projects'
                       src='../images/projects/memory_preview.png'
-                      width={310}
-                      height={310}
+                      width={298}
+                      height={298}
                       layout='fullWidth'
                       objectFit='cover'
                       className='h-100'
@@ -74,12 +74,12 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='col-6 mb-3'>
-                  <div className='col-12 hover-secondary'>
+                  <div className='col-12 hover-small'>
                     <StaticImage
                       alt='One of my projects'
-                      src='../images/projects/memory_preview.png'
-                      width={310}
-                      height={310}
+                      src='../images/projects/ruien.png'
+                      width={298}
+                      height={298}
                       layout='fullWidth'
                       objectFit='cover'
                       className='h-100'
@@ -87,12 +87,12 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='col-12'>
-                  <div className='col-12 hover-wide'>
+                  <div className='col-12 hover-secondary'>
                     <StaticImage
                       alt='One of my projects'
                       src='../images/projects/pokedex.png'
                       width={600}
-                      height={310}
+                      height={298}
                       layout='fullWidth'
                       objectFit='cover'
                       className='h-100'
