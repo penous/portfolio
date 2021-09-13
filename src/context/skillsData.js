@@ -76,7 +76,7 @@ export const skills = [
     level: 'Advanced',
   },
   {
-    name: 'Illustrator',
+    name: 'GraphQL',
     level: 'Intermediate',
   },
 ];
