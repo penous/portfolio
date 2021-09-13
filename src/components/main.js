@@ -9,7 +9,7 @@ import {
 const Main = () => {
   return (
     <Fragment>
-      <section className='main-bg text-light d-flex align-items-center'>
+      <section className=' main main-bg text-light d-flex align-items-center'>
         <div className='container'>
           <h1>
             Welcome, I'm <span className='text-primary'>Tom</span> Dirinck
