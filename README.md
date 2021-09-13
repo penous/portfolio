@@ -4,51 +4,50 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Personal portfolio
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Clone the repo.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    Use the Git CLI to clone the repo
 
     ```shell
     # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    git clone "this repo"
     ```
 
-2.  **Start developing.**
+2.  **Install dependencies.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your new site’s directory and install the packages.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    cd portfolio/
+    npm install
     ```
 
-3.  **Open the code and start customizing!**
+3.  **Start the development server**
+
+    ```shell
+    npm start
+    ```
 
     Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+4.  **More info**
 
-4.  **Learn more**
+    ##### Why React?
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - I Love the component based workflow and how it makes frontend fun.
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    ##### Why gatsby?
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - because I wanted to challenge myself and learn something new.
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+#### New features & improvements
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- [ ] Make proper project pages.
+- [ ] Write & display blogposts.
+- [ ] Animate graphics so it's even more of an experience to browse.
+- [ ] Add contact form.
