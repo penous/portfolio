@@ -77,9 +77,9 @@ const Contact = () => {
                 <span className='text-primary'>Belgium</span>&lt;/country&gt;
               </p>
               <p className='mb-0'>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;state&gt;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;city&gt;
                 <span className='text-primary'>Antwerp</span>
-                &lt;/state&gt;
+                &lt;/city&gt;
               </p>
             </div>
           </div>
