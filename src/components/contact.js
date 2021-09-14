@@ -7,7 +7,7 @@ const Contact = () => {
       id='contact'
       className='contact d-flex justify-content-center align-items-center'
     >
-      <div className='container-lg'>
+      <div className='container-lg p-content'>
         <div className='row'>
           <div className='col-12 col-md-8 col-lg-6'>
             <div className='contact-wrapper'>

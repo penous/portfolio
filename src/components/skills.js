@@ -8,7 +8,7 @@ const Skills = () => {
       id='skills'
       className='skills d-flex justify-content-center align-items-center'
     >
-      <div className='container-lg'>
+      <div className='container-lg p-content'>
         <div className='row row-spacing'>
           <div className='col'>
             <h2>

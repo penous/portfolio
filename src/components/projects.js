@@ -7,7 +7,7 @@ const Projects = () => {
       id='projects'
       className='projects d-flex justify-content-center align-items-center'
     >
-      <div className='container-lg'>
+      <div className='container-lg p-content'>
         {/* Left side projects */}
         <div className='project-list'>
           <div className='row'>
