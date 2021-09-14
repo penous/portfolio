@@ -15,7 +15,7 @@ const Main = () => {
             Welcome, I'm <span className='text-primary'>Tom</span> Dirinck
           </h1>
           <h2>
-            <span className='text-primary'>Fullstack</span> developer
+            <span className='text-primary'>FFullstack</span> developer
           </h2>
         </div>
       </section>
