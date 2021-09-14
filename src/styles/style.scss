@@ -512,7 +512,7 @@ nav {
   }
 }
 
-@media (min-device-width: 992px) and (max-device-width: 1140px) {
+@media (min-width: 992px) and (max-width: 1140px) {
   nav {
     font-size: 1.1em;
   }
