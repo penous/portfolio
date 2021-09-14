@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className='navbar navbar-expand-lg navbar-dark'>
       <div className='container-fluid'>
         <StaticImage
-          className='nav-logo me-3'
+          className='nav-logo me-lg-3'
           alt='navbar logo'
           src='../images/nav_logo.svg'
         />
@@ -35,7 +35,7 @@ const Navbar = () => {
           <span className='text-primary'>TOM</span> DIRINCK
         </a>
         <div className='d-flex'>
-          <p className='text-light move ms-3'>&lt;!-- {title} Dev --&gt;</p>
+          <p className='text-light move ms-lg-3'>&lt;!-- {title} Dev --&gt;</p>
         </div>
         <button
           className='navbar-toggler'

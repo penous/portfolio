@@ -66,6 +66,10 @@ section {
     font-family: $font-title;
     margin-left: 150px;
   }
+  .p-content {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
 }
 
 .main {
@@ -86,7 +90,7 @@ section {
 
 nav {
   font-family: $font-title;
-  font-size: 1.2em;
+  font-size: 1.4em;
   height: $nav-height;
   margin: 40px 40px 0;
   div {
@@ -481,7 +485,7 @@ nav {
     padding-left: 100px;
   }
   nav {
-    font-size: 0.9em;
+    font-size: 1.4em;
     div {
       a {
         font-size: 0.9em;
@@ -508,6 +512,12 @@ nav {
   }
 }
 
+@media (min-device-width: 992px) and (max-device-width: 1140px) {
+  nav {
+    font-size: 1.1em;
+  }
+}
+
 // Small to medium
 @media (max-width: 767.98px) {
   .social-icons {
@@ -518,7 +528,7 @@ nav {
     margin-right: 0;
   }
   nav {
-    font-size: 0.8em;
+    font-size: 1.3em;
     div {
       a {
         font-size: 0.8em !important;
@@ -539,7 +549,7 @@ nav {
 // Extra small to small
 @media (max-width: 576px) {
   nav {
-    font-size: 0.6em;
+    font-size: 1.2em;
     margin: 40px 0 0;
     .nav-logo {
       transform: scale(0.5);
@@ -547,5 +557,11 @@ nav {
     .move {
       transform: translateY(8px);
     }
+  }
+}
+
+@media (max-width: 576px) {
+  nav {
+    font-size: 0.8em;
   }
 }
