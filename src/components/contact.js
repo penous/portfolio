@@ -52,7 +52,7 @@ const Contact = () => {
                   <div className='tag-start'>
                     &lt;<span className='text-primary'>Email</span>&gt;
                   </div>
-                  tom.dirinck@gmail.com
+                  tom@diritom.com
                   <div className='tag-end'>
                     &lt;/<span className='text-primary'>Email</span>&gt;
                   </div>
