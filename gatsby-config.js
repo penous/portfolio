@@ -5,11 +5,14 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'UA-206381893-1',
-        head: true,
-        anonymize: true,
+        trackingIds: [
+          'G-812LQWDE39', // Google Analytics / GA
+        ],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     `gatsby-plugin-react-helmet`,
