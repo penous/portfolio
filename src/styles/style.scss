@@ -488,6 +488,12 @@ nav {
       }
     }
   }
+  .main {
+    h1,
+    h2 {
+      margin-left: 0;
+    }
+  }
   .skills {
     p {
       width: 100%;
@@ -506,6 +512,10 @@ nav {
 @media (max-width: 767.98px) {
   .social-icons {
     display: none;
+  }
+  section {
+    padding-left: 0;
+    margin-right: 0;
   }
   nav {
     font-size: 0.8em;

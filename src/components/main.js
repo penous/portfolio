@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <Fragment>
       <section className=' main main-bg text-light d-flex align-items-center'>
-        <div className='container'>
+        <div className='container-lg'>
           <h1>
             Welcome, I'm <span className='text-primary'>Tom</span> Dirinck
           </h1>

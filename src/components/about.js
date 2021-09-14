@@ -8,7 +8,7 @@ const About = () => {
       id='about'
       className='about d-flex justify-content-center align-items-center'
     >
-      <div className='container'>
+      <div className='container-lg'>
         <div className='row'>
           <div className='col-md-4 me-auto'>-</div>
           <div className='col-md-4 align-self-center'>&lt;?&gt;</div>
