@@ -87,7 +87,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='col-12'>
-                  <div className='col-12 hover-secondary'>
+                  <div className='col-12 hover-wide'>
                     <StaticImage
                       alt='One of my projects'
                       src='../images/projects/pokedex.png'
