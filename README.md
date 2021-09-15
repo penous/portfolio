@@ -7,7 +7,7 @@
 
 ## about
 
-    My personal portfolio website made with React, Gatsby and GraphQL.
+My personal portfolio website made with React, Gatsby and GraphQL.
     
 ## Online link
 
