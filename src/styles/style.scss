@@ -1,8 +1,8 @@
 // Import fonts
-@import 'fonts';
+@import "fonts";
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
-@import '../../node_modules/bootstrap/scss/functions';
+@import "../../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
 
@@ -15,23 +15,23 @@ $primary: #f5ff4f;
 $light: #ced4da;
 
 // 3. Include remainder of required Bootstrap stylesheets
-@import '../../node_modules/bootstrap/scss/variables';
-@import '../../node_modules/bootstrap/scss/mixins';
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 
 // 4. Include any optional Bootstrap components as you like
-@import '../../node_modules/bootstrap/scss/root';
-@import '../../node_modules/bootstrap/scss/reboot';
-@import '../../node_modules/bootstrap/scss/type';
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
 // @import "../../node_modules/bootstrap/scss/images";
-@import '../../node_modules/bootstrap/scss/containers';
-@import '../../node_modules/bootstrap/scss/grid';
-@import '../../node_modules/bootstrap/scss/utilities';
-@import '../../node_modules/bootstrap/scss/utilities/api';
-@import '../../node_modules/bootstrap/scss/buttons';
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/utilities/api";
+@import "../../node_modules/bootstrap/scss/buttons";
 // @import "../../node_modules/bootstrap/scss/helpers";
-@import '../../node_modules/bootstrap/scss/nav';
-@import '../../node_modules/bootstrap/scss/navbar';
-@import '../../node_modules/bootstrap/scss/transitions';
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/transitions";
 // @import "../../node_modules/bootstrap/scss/dropdown";
 // @import "../../node_modules/bootstrap/scss/list-group";
 // @import "../../node_modules/bootstrap/scss/popover";
@@ -40,8 +40,8 @@ $light: #ced4da;
 
 // 5. Add additional custom code here
 // Font variables
-$font-title: 'Gotham Bold';
-$font-book: 'Gotham Book';
+$font-title: "Gotham Bold";
+$font-book: "Gotham Book";
 
 // @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -55,6 +55,7 @@ $nav-height: 56px;
 // Custom CSS
 body {
   background-image: url(../images/background.webp);
+  background-color: black;
   background-size: cover;
   scroll-behavior: smooth;
 }
@@ -83,8 +84,7 @@ section {
   height: calc(100vh - #{$nav-height});
   max-height: 100vh;
   width: 100vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../images/bg_svg.svg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg_svg.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -135,7 +135,36 @@ nav {
       display: list-item;
     }
     &::after {
-      content: '';
+      content: "";
+      display: block;
+      width: 1px;
+      height: 90px;
+      margin: 0 auto;
+      background-color: darkgrey;
+    }
+  }
+}
+
+.email-wrapper {
+  color: darkgrey;
+  width: 40px;
+  bottom: 0px;
+  right: 40px;
+  left: auto;
+  z-index: 10;
+  position: fixed;
+  .email-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    p {
+      writing-mode: vertical-lr;
+      letter-spacing: 0.1em;
+      font-family: $font-book;
+    }
+    &::after {
+      content: "";
       display: block;
       width: 1px;
       height: 90px;
@@ -184,7 +213,7 @@ nav {
       font-size: 0.9em;
     }
     &::after {
-      content: '';
+      content: "";
       background-image: url(../images/pp_bg.svg);
       background-repeat: no-repeat;
       background-size: contain;
@@ -205,7 +234,7 @@ nav {
     &:nth-child(2) {
       position: relative;
       &::after {
-        content: '';
+        content: "";
         background-image: url(../images/skills_big_bg.svg);
         background-repeat: no-repeat;
         background-size: contain;
@@ -233,7 +262,7 @@ nav {
       z-index: -1;
     }
     &::after {
-      content: '<ul>skills</ul>';
+      content: "<ul>skills</ul>";
       position: absolute;
       left: 0;
       top: 100%;
@@ -255,7 +284,7 @@ nav {
     position: relative;
     transition: transform 0.1s;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 100%;
       height: 100%;
@@ -271,7 +300,7 @@ nav {
     &:hover {
       transform: scale(1.03);
       &::before {
-        content: '';
+        content: "";
         width: 100%;
         height: 100%;
         opacity: 0;
@@ -282,7 +311,7 @@ nav {
     position: relative;
     transition: transform 0.1s;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 100%;
       height: 100%;
@@ -298,7 +327,7 @@ nav {
     &:hover {
       transform: scale(1.03);
       &::before {
-        content: '';
+        content: "";
         width: 100%;
         height: 100%;
         opacity: 0;
@@ -309,7 +338,7 @@ nav {
     position: relative;
     transition: transform 0.1s;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 100%;
       height: 100%;
@@ -325,7 +354,7 @@ nav {
     &:hover {
       transform: scale(1.03);
       &::before {
-        content: '';
+        content: "";
         width: 100%;
         height: 100%;
         opacity: 0;
@@ -336,7 +365,7 @@ nav {
     position: relative;
     transition: transform 0.1s;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 100%;
       height: 100%;
@@ -352,7 +381,7 @@ nav {
     &:hover {
       transform: scale(1.03);
       &::before {
-        content: '';
+        content: "";
         width: 100%;
         height: 100%;
         opacity: 0;
@@ -365,7 +394,7 @@ nav {
       filter: grayscale(1);
     }
     &::before {
-      content: '';
+      content: "";
       width: 100%;
       height: 100%;
       transition: opacity 0.2s linear;
@@ -377,7 +406,7 @@ nav {
         filter: none;
       }
       &::before {
-        content: '';
+        content: "";
         width: 100%;
         height: 100%;
         opacity: 0;
@@ -388,7 +417,7 @@ nav {
     position: relative;
     margin-bottom: 1em;
     &::before {
-      content: '<p>Projects</p>';
+      content: "<p>Projects</p>";
       transform: rotate(-90deg);
       position: absolute;
       left: -90px;
@@ -396,7 +425,7 @@ nav {
       font-family: $font-book;
     }
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       width: 120%;
       height: 120%;
@@ -429,7 +458,7 @@ nav {
       font-size: 0.9em;
     }
     &::after {
-      content: '';
+      content: "";
       background: url(../images/contact_art.svg) no-repeat;
       background-size: contain;
       height: 150%;
