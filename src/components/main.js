@@ -23,7 +23,7 @@ const Main = () => {
       <div className='social-icons'>
         <ul>
           <li>
-            <a href='https://www.linkedin.com/in/tom-dirinck/'>
+            <a href='https://www.linkedin.com/in/tom-dirinck/' target='_blank'>
               <FontAwesomeIcon
                 icon={faLinkedinIn}
                 className='icon-highlight'
@@ -33,7 +33,7 @@ const Main = () => {
             </a>
           </li>
           <li>
-            <a href='https://www.instagram.com/tomdirinck/'>
+            <a href='https://www.instagram.com/tomdirinck/' target='_blank'>
               <FontAwesomeIcon
                 icon={faInstagram}
                 className='icon-highlight'
@@ -43,7 +43,7 @@ const Main = () => {
             </a>
           </li>
           <li>
-            <a href='https://github.com/penous'>
+            <a href='https://github.com/penous' target='_blank'>
               <FontAwesomeIcon
                 icon={faGithub}
                 className='icon-highlight'
@@ -57,7 +57,9 @@ const Main = () => {
 
       <div className='email-wrapper'>
         <div className='email-icon'>
-          <p>tom@diritom.com</p>
+          <a href='mailto:tom@diritom.com'>
+            <p>tom@diritom.com</p>
+          </a>
         </div>
       </div>
     </Fragment>
