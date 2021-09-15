@@ -10,19 +10,7 @@ const IndexPage = () => {
   return (
     <Fragment>
       <Helmet>
-        <meta name='icon' href='../images/favicon.ico' />
-        <meta name='icon' href='../images/nav_logo.png' />
-
-        <link
-          href='../images/favicon.ico'
-          rel='shortcut icon'
-          type='image/x-icon'
-        />
-        <link
-          href='../images/nav-logo.png'
-          rel='shortcut icon'
-          type='image/x-icon'
-        />
+        <title>Tom Dirinck | Portfolio</title>
       </Helmet>
       <Main />
       <About />
