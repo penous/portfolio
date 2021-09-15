@@ -15,6 +15,18 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Portfolio`,
+        short_name: `Portfolio`,
+        start_url: `/`,
+        background_color: `#000000`,
+        icon: `./src/images/nav_logo.png`, // This path is relative to the root of the site.
+        theme_color: `#000000`,
+        display: `standalone`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
