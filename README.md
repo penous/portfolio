@@ -5,6 +5,14 @@
   Personal portfolio
 </h1>
 
+## about
+
+    My personal portfolio website made with React, Gatsby and GraphQL.
+    
+## Online link
+
+www.diritom.com
+
 ## 🚀 Quick start
 
 1.  **Clone the repo.**
