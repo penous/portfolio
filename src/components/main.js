@@ -24,17 +24,32 @@ const Main = () => {
         <ul>
           <li>
             <a href='https://www.linkedin.com/in/tom-dirinck/'>
-              <FontAwesomeIcon icon={faLinkedinIn} color='darkgrey' size='2x' />
+              <FontAwesomeIcon
+                icon={faLinkedinIn}
+                className='icon-highlight'
+                color='darkgrey'
+                size='2x'
+              />
             </a>
           </li>
           <li>
             <a href='https://www.instagram.com/tomdirinck/'>
-              <FontAwesomeIcon icon={faInstagram} color='darkgrey' size='2x' />
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className='icon-highlight'
+                color='darkgrey'
+                size='2x'
+              />
             </a>
           </li>
           <li>
             <a href='https://github.com/penous'>
-              <FontAwesomeIcon icon={faGithub} color='darkgrey' size='2x' />
+              <FontAwesomeIcon
+                icon={faGithub}
+                className='icon-highlight'
+                color='darkgrey'
+                size='2x'
+              />
             </a>
           </li>
         </ul>
