@@ -7,11 +7,11 @@ function* generator(arr) {
   }
 }
 
-const arr = ['Frontend', 'Backend', 'Fullstack'];
+const arr = ['Frontend', 'Backend', 'Full stack'];
 const gen = generator(arr);
 
 const Navbar = () => {
-  const [title, setTitle] = useState('Fullstack');
+  const [title, setTitle] = useState('Full stack');
 
   useEffect(() => {
     const interval = setInterval(() => {

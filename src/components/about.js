@@ -54,7 +54,7 @@ const About = () => {
                 coder when I got older. I have two years experience as a backend
                 developer and I'm now enrolled at Becode Antwerp where it's
                 possible to focus more on the frontend spectrum. All this to
-                become a full-fledged fullstack developer. We've had the
+                become a full-fledged full stack developer. We've had the
                 opportunity to work with a great deal of
                 <Link to='#skills'> web technologies</Link>. I'm looking forward
                 to gather a significant amount of various experiences at my

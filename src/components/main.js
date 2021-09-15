@@ -15,7 +15,7 @@ const Main = () => {
             Welcome, I'm <span className='text-primary'>Tom</span> Dirinck
           </h1>
           <h2>
-            <span className='text-primary'>Fullstack</span> developer
+            <span className='text-primary'>Full stack</span> developer
           </h2>
         </div>
       </section>
@@ -38,6 +38,12 @@ const Main = () => {
             </a>
           </li>
         </ul>
+      </div>
+
+      <div className='email-wrapper'>
+        <div className='email-icon'>
+          <p>tom@diritom.com</p>
+        </div>
       </div>
     </Fragment>
   );
