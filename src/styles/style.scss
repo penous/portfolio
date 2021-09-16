@@ -74,6 +74,27 @@ section {
 }
 
 .main {
+  .pannel--video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -2;
+    &::after {
+      content: "";
+      background: rgb(0 0 0 / 69%);
+      display: block;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      position: absolute;
+      z-index: 0;
+    }
+  }
   h2 {
     font-family: $font-title;
     margin-left: 150px;
@@ -518,6 +539,11 @@ nav {
 
 // Even larger
 @media (min-width: 1400px) {
+  section {
+    padding-left: 100px;
+    overflow-x: hidden;
+    margin-right: 50px;
+  }
   .skills {
     p {
       transform: translateX(-65px);

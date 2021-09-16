@@ -1,15 +1,20 @@
 import React, { Fragment } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import hero_video from '../context/assets/diritom-hero-animation.mp4';
 import {
   faGithub,
   faInstagram,
   faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons';
+import Video from './video';
 
 const Main = () => {
   return (
     <Fragment>
       <section className=' main main-bg text-light d-flex align-items-center'>
+        <div className='pannel--video'>
+          <Video source={hero_video} />
+        </div>
         <div className='container-lg'>
           <h1>
             Welcome, I'm <span className='text-primary'>Tom</span> Dirinck
