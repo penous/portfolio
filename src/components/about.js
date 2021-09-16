@@ -25,8 +25,8 @@ const About = () => {
             </p>
             <p>
               &nbsp; &nbsp; &lt;p class=&quot;company&quot;&gt; &lt;span
-              id=&quot;text&quot;&gt;November{' '}
-              <span className='text-primary'>Five</span>&lt;/span&gt;&lt;/p&gt;
+              id=&quot;text&quot;&gt;
+              <span className='text-primary'>You!</span>&lt;/span&gt;&lt;/p&gt;
             </p>
             <p>&nbsp; &lt;/div&gt;</p>
             <p>
