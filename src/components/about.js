@@ -55,8 +55,8 @@ const About = () => {
                 developer and I'm now enrolled at Becode Antwerp where it's
                 possible to focus more on the frontend spectrum. All this to
                 become a full-fledged full stack developer. We've had the
-                opportunity to work with a great deal of
-                <Link to='#skills'> web technologies</Link>. I'm looking forward
+                opportunity to work with a great deal of{' '}
+                <Link to='#skills'>web technologies</Link>. I'm looking forward
                 to gather a significant amount of various experiences at my
                 internship and future jobs with amazing and ambitious people.
               </q>
